@@ -18,12 +18,12 @@ public class UserController {
         return userRepository.findById(id);
     }
 
-    @PostMapping("/user")
+    @PostMapping("/users")
     User newUser(@RequestBody User newUser) {
         return userRepository.save(newUser);
     }
 
-    @PutMapping("/user/{id}")
+    @PutMapping("/users/{id}")
     Optional<User> replaceUser(@RequestBody User newUser, @PathVariable Long id) {
 
         return userRepository.findById(id)
@@ -36,7 +36,7 @@ public class UserController {
                 });
     }
 
-    @DeleteMapping("/user/{id}")
+    @DeleteMapping("/users/{id}")
     void deleteEmployee(@PathVariable Long id) {
         userRepository.deleteById(id);
     }
