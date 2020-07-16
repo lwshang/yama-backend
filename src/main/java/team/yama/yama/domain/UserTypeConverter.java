@@ -1,4 +1,4 @@
-package team.yama.yama.user;
+package team.yama.yama.domain;
 
 import javax.persistence.AttributeConverter;
 import javax.persistence.Converter;

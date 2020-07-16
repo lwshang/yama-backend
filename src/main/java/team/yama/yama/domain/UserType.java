@@ -1,4 +1,4 @@
-package team.yama.yama.user;
+package team.yama.yama.domain;
 
 public enum UserType {
     Admin(0), Manager(1), Operator(2), Tenant(3);

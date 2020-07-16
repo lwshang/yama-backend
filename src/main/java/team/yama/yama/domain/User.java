@@ -1,9 +1,8 @@
-package team.yama.yama.user;
+package team.yama.yama.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import team.yama.yama.user.UserType;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

@@ -1,6 +1,8 @@
-package team.yama.yama.user;
+package team.yama.yama.controller;
 
 import org.springframework.web.bind.annotation.*;
+import team.yama.yama.domain.User;
+import team.yama.yama.repository.UserRepository;
 
 import java.util.Optional;
 
