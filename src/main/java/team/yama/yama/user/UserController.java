@@ -30,6 +30,7 @@ public class UserController {
                 .map(user -> {
                     user.setEmail(newUser.getEmail());
                     user.setPassword(newUser.getPassword());
+                    user.setUserType(newUser.getUserType());
                     user.setFirstName(newUser.getFirstName());
                     user.setLastName(newUser.getLastName());
                     return userRepository.save(user);
